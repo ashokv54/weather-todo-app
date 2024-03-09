@@ -267,6 +267,7 @@ When you submit a pull request, a CLA bot will automatically determine whether y
 If you find a bug in the source code or a mistake in the documentation, you can help us by [submitting an issue](CONTRIBUTING.md#-submitting-an-issue) to the GitHub Repository. Even better, you can [submit a Pull Request](CONTRIBUTING.md#-submitting-a-pull-request-pr) with a fix.
 
 ## Want a Feature?
+#
 You can *request* a new feature by [submitting an issue](CONTRIBUTING.md#-submitting-an-issue) to the GitHub Repository. If you would like to *implement* a new feature, please submit an issue with a proposal for your work first, to be sure that we can use it.
 
 * **Small Features** can be crafted and directly [submitted as a Pull Request](CONTRIBUTING.md#-submitting-an-issue).
