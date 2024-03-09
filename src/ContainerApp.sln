@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainerApp.Test", "Contai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainerApp.WeatherApi", "ContainerApp.WeatherApi\ContainerApp.WeatherApi.csproj", "{1692CF2E-1E51-414F-A33D-6272954995A2}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "database", "database\database.sqlproj", "{268D9A35-AE7C-45A3-A7A7-B120278F1B1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{1692CF2E-1E51-414F-A33D-6272954995A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1692CF2E-1E51-414F-A33D-6272954995A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1692CF2E-1E51-414F-A33D-6272954995A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268D9A35-AE7C-45A3-A7A7-B120278F1B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268D9A35-AE7C-45A3-A7A7-B120278F1B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268D9A35-AE7C-45A3-A7A7-B120278F1B1B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{268D9A35-AE7C-45A3-A7A7-B120278F1B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268D9A35-AE7C-45A3-A7A7-B120278F1B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268D9A35-AE7C-45A3-A7A7-B120278F1B1B}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
