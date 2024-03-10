@@ -9,17 +9,18 @@ on: workflow_dispatch
 #    branches: [ main ]
 
 env:
-  AZ_RG_NAME: 'rg-dotnetcontainerapp555'
+  AZ_RG_NAME: 'rg-dotnetcontainerapp556'
   AZ_RG_LOCATION: 'eastus'
-  AZ_ACR_NAME: 'acrdotnetcontainerapp555'
-  AZ_AKS_NAME: 'aksdotnetcontainerapp555'
-  AZ_SQLSERVER_NAME: 'sqldotnetcontainerapp555'
-  AZ_KV_NAME: 'kvdotnetcontainerap555'
-  AZ_LOADTEST_NAME: 'ltstdotnetcontainerap555'
+  AZ_ACR_NAME: 'acrdotnetcontainerapp556'
+  AZ_AKS_NAME: 'aksdotnetcontainerapp556'
+  AZ_SQLSERVER_NAME: 'sqldotnetcontainerapp556'
+  AZ_KV_NAME: 'kvdotnetcontainerap556'
+  AZ_LOADTEST_NAME: 'ltstdotnetcontainerap556'
 
 jobs:
 
   iac:
+    continue-on-error: true
     runs-on: ubuntu-latest
     steps:
       # Checkout code
